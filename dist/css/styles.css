@@ -11407,6 +11407,14 @@ p.lead {
   font-size: 3rem;
 }
 
+.img {
+  width: 350px;
+  height: 350px;
+  border-radius: 15%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 section.resume-section {
   display: flex;
   align-items: center;
