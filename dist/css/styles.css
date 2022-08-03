@@ -11396,8 +11396,25 @@ p.lead {
      object-fit: cover;
 }
 
-section.resume-section {
+.project-title {
+  margin-top: 5%;
+}
+
+.div-project {
   display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+section.resume-section {
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -11411,7 +11428,7 @@ section.resume-section .resume-section-content {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 50vh;
   }
 }
 @media (min-width: 992px) {

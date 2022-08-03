@@ -40,3 +40,18 @@
  body{
     // background-image: url("https://images.freeimages.com/images/large-previews/002/wood-wall-for-background-1634464.jpg");
  }
+ .project-title{
+    margin-top: 5%;
+ }
+ .div-project{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+ }
+ .flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
